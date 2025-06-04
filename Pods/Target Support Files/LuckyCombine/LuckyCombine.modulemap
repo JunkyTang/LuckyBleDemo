@@ -1,0 +1,6 @@
+framework module LuckyCombine {
+  umbrella header "LuckyCombine-umbrella.h"
+
+  export *
+  module * { export * }
+}

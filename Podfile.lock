@@ -1,0 +1,77 @@
+PODS:
+  - LuckyCombine (1.1.1)
+  - LuckyIB (1.3.0)
+  - LuckyLogger (0.1.0)
+  - LuckyPop (3.1.0):
+    - SnapKit
+  - LuckyPropertyWrapper (0.3.2)
+  - SafeContinuation (0.1.3)
+  - SDWebImage (5.21.0):
+    - SDWebImage/Core (= 5.21.0)
+  - SDWebImage/Core (5.21.0)
+  - SnapKit (5.7.1)
+
+DEPENDENCIES:
+  - LuckyCombine (from `https://github.com/JunkyTang/LuckyCombine.git`)
+  - LuckyIB (from `https://github.com/JunkyTang/LuckyIB.git`, tag `1.3.0`)
+  - LuckyLogger (from `https://github.com/JunkyTang/LuckyLogger.git`, tag `0.1.0`)
+  - LuckyPop (from `https://github.com/JunkyTang/LuckyPop.git`)
+  - LuckyPropertyWrapper (from `https://github.com/JunkyTang/LuckyPropertyWrapper.git`, tag `0.3.2`)
+  - SafeContinuation (from `https://github.com/JunkyTang/SafeContinuation.git`)
+  - SDWebImage
+
+SPEC REPOS:
+  trunk:
+    - SDWebImage
+    - SnapKit
+
+EXTERNAL SOURCES:
+  LuckyCombine:
+    :git: https://github.com/JunkyTang/LuckyCombine.git
+  LuckyIB:
+    :git: https://github.com/JunkyTang/LuckyIB.git
+    :tag: 1.3.0
+  LuckyLogger:
+    :git: https://github.com/JunkyTang/LuckyLogger.git
+    :tag: 0.1.0
+  LuckyPop:
+    :git: https://github.com/JunkyTang/LuckyPop.git
+  LuckyPropertyWrapper:
+    :git: https://github.com/JunkyTang/LuckyPropertyWrapper.git
+    :tag: 0.3.2
+  SafeContinuation:
+    :git: https://github.com/JunkyTang/SafeContinuation.git
+
+CHECKOUT OPTIONS:
+  LuckyCombine:
+    :commit: cdca0b7f62edf6017314f5dd492a51fcf98918db
+    :git: https://github.com/JunkyTang/LuckyCombine.git
+  LuckyIB:
+    :git: https://github.com/JunkyTang/LuckyIB.git
+    :tag: 1.3.0
+  LuckyLogger:
+    :git: https://github.com/JunkyTang/LuckyLogger.git
+    :tag: 0.1.0
+  LuckyPop:
+    :commit: e09c886cf5be16cdc7534f0b10bc23c729d80bfb
+    :git: https://github.com/JunkyTang/LuckyPop.git
+  LuckyPropertyWrapper:
+    :git: https://github.com/JunkyTang/LuckyPropertyWrapper.git
+    :tag: 0.3.2
+  SafeContinuation:
+    :commit: 2c9d7c539781e63a2c37ad1a29fcd015c20fafec
+    :git: https://github.com/JunkyTang/SafeContinuation.git
+
+SPEC CHECKSUMS:
+  LuckyCombine: 89c0d1bf93f22f1778f55c08a8572b03d0342a5e
+  LuckyIB: 434b6cac47ba083499842f31947a5e37609c2b39
+  LuckyLogger: 9cb2607138883ae71fe86f9055334339cfa4ece8
+  LuckyPop: ac45775aa81a7058a26a3357fd858357ce3693c2
+  LuckyPropertyWrapper: 940fe15c1de44b392c10e444b22ca379572d1c45
+  SafeContinuation: 50d2c1727f56f54c3983e4d1163a929dca648a38
+  SDWebImage: f84b0feeb08d2d11e6a9b843cb06d75ebf5b8868
+  SnapKit: d612e99e678a2d3b95bf60b0705ed0a35c03484a
+
+PODFILE CHECKSUM: 081d02ccec641fb1e3892d2649c43b399fbcdb42
+
+COCOAPODS: 1.16.2

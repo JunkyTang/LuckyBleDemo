@@ -1,0 +1,9 @@
+${PODS_ROOT}/Target Support Files/Pods-LuckyBleDemo/Pods-LuckyBleDemo-frameworks.sh
+${BUILT_PRODUCTS_DIR}/LuckyCombine/LuckyCombine.framework
+${BUILT_PRODUCTS_DIR}/LuckyIB/LuckyIB.framework
+${BUILT_PRODUCTS_DIR}/LuckyLogger/LuckyLogger.framework
+${BUILT_PRODUCTS_DIR}/LuckyPop/LuckyPop.framework
+${BUILT_PRODUCTS_DIR}/LuckyPropertyWrapper/LuckyPropertyWrapper.framework
+${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework
+${BUILT_PRODUCTS_DIR}/SafeContinuation/SafeContinuation.framework
+${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework

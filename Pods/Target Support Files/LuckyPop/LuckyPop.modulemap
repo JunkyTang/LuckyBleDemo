@@ -1,0 +1,6 @@
+framework module LuckyPop {
+  umbrella header "LuckyPop-umbrella.h"
+
+  export *
+  module * { export * }
+}

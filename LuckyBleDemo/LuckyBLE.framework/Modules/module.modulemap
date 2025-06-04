@@ -1,0 +1,11 @@
+framework module LuckyBLE {
+  umbrella header "LuckyBLE-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module LuckyBLE.Swift {
+  header "LuckyBLE-Swift.h"
+  requires objc
+}

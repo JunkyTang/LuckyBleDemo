@@ -1,0 +1,6 @@
+framework module LuckyIB {
+  umbrella header "LuckyIB-umbrella.h"
+
+  export *
+  module * { export * }
+}

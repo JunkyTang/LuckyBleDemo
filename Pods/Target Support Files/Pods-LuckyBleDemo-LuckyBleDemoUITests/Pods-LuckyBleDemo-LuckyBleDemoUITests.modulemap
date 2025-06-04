@@ -1,0 +1,6 @@
+framework module Pods_LuckyBleDemo_LuckyBleDemoUITests {
+  umbrella header "Pods-LuckyBleDemo-LuckyBleDemoUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

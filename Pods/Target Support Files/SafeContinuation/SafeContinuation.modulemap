@@ -1,0 +1,6 @@
+framework module SafeContinuation {
+  umbrella header "SafeContinuation-umbrella.h"
+
+  export *
+  module * { export * }
+}

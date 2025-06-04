@@ -1,0 +1,773 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7A58E10C8E3DD9F362FBAC48 /* Pods_LuckyBleDemo_LuckyBleDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D45899CD874EE1E04C33770D /* Pods_LuckyBleDemo_LuckyBleDemoUITests.framework */; };
+		B5BF13ED15C9F938D84F7D68 /* Pods_LuckyBleDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 133EF1007CEBBAEB5A28DB3E /* Pods_LuckyBleDemoTests.framework */; };
+		F5AC4F0459811C3EDA822EE7 /* Pods_LuckyBleDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 516B34AE3963F87922B2EBDD /* Pods_LuckyBleDemo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3B60F3D52DEFE15000E18186 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B60F3B62DEFE14E00E18186 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B60F3BD2DEFE14E00E18186;
+			remoteInfo = LuckyBleDemo;
+		};
+		3B60F3DF2DEFE15000E18186 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B60F3B62DEFE14E00E18186 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B60F3BD2DEFE14E00E18186;
+			remoteInfo = LuckyBleDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3B60F4422DEFE2AA00E18186 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		133EF1007CEBBAEB5A28DB3E /* Pods_LuckyBleDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LuckyBleDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B60F3BE2DEFE14E00E18186 /* LuckyBleDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LuckyBleDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B60F3D42DEFE15000E18186 /* LuckyBleDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LuckyBleDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B60F3DE2DEFE15000E18186 /* LuckyBleDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LuckyBleDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		516B34AE3963F87922B2EBDD /* Pods_LuckyBleDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LuckyBleDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E1F5ED3F9295F0F7B10E382 /* Pods-LuckyBleDemo-LuckyBleDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LuckyBleDemo-LuckyBleDemoUITests.debug.xcconfig"; path = "Target Support Files/Pods-LuckyBleDemo-LuckyBleDemoUITests/Pods-LuckyBleDemo-LuckyBleDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		64A3565AA0ABF3D399B9E1B6 /* Pods-LuckyBleDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LuckyBleDemoTests.release.xcconfig"; path = "Target Support Files/Pods-LuckyBleDemoTests/Pods-LuckyBleDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		701A63CD6A6FA3BA7886AB67 /* Pods-LuckyBleDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LuckyBleDemo.release.xcconfig"; path = "Target Support Files/Pods-LuckyBleDemo/Pods-LuckyBleDemo.release.xcconfig"; sourceTree = "<group>"; };
+		94E1C482951755FFCEDB756E /* Pods-LuckyBleDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LuckyBleDemo.debug.xcconfig"; path = "Target Support Files/Pods-LuckyBleDemo/Pods-LuckyBleDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		CDF800B153A61260516C185A /* Pods-LuckyBleDemo-LuckyBleDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LuckyBleDemo-LuckyBleDemoUITests.release.xcconfig"; path = "Target Support Files/Pods-LuckyBleDemo-LuckyBleDemoUITests/Pods-LuckyBleDemo-LuckyBleDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D45899CD874EE1E04C33770D /* Pods_LuckyBleDemo_LuckyBleDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LuckyBleDemo_LuckyBleDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F08B8DF8E688764F64A988E5 /* Pods-LuckyBleDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LuckyBleDemoTests.debug.xcconfig"; path = "Target Support Files/Pods-LuckyBleDemoTests/Pods-LuckyBleDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		3B60F3E62DEFE15000E18186 /* Exceptions for "LuckyBleDemo" folder in "LuckyBleDemo" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 3B60F3BD2DEFE14E00E18186 /* LuckyBleDemo */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+		3B60F4432DEFE2AA00E18186 /* Exceptions for "LuckyBleDemo" folder in "Embed Frameworks" phase from "LuckyBleDemo" target */ = {
+			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
+			attributesByRelativePath = {
+				LuckyBLE.framework = (CodeSignOnCopy, RemoveHeadersOnCopy, );
+			};
+			buildPhase = 3B60F4422DEFE2AA00E18186 /* Embed Frameworks */;
+			membershipExceptions = (
+				LuckyBLE.framework,
+			);
+		};
+/* End PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		3B60F3C02DEFE14E00E18186 /* LuckyBleDemo */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				3B60F3E62DEFE15000E18186 /* Exceptions for "LuckyBleDemo" folder in "LuckyBleDemo" target */,
+				3B60F4432DEFE2AA00E18186 /* Exceptions for "LuckyBleDemo" folder in "Embed Frameworks" phase from "LuckyBleDemo" target */,
+			);
+			path = LuckyBleDemo;
+			sourceTree = "<group>";
+		};
+		3B60F3D72DEFE15000E18186 /* LuckyBleDemoTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = LuckyBleDemoTests;
+			sourceTree = "<group>";
+		};
+		3B60F3E12DEFE15000E18186 /* LuckyBleDemoUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = LuckyBleDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3B60F3BB2DEFE14E00E18186 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5AC4F0459811C3EDA822EE7 /* Pods_LuckyBleDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B60F3D12DEFE15000E18186 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5BF13ED15C9F938D84F7D68 /* Pods_LuckyBleDemoTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B60F3DB2DEFE15000E18186 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A58E10C8E3DD9F362FBAC48 /* Pods_LuckyBleDemo_LuckyBleDemoUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1C66D14EF251911C4F676D65 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				94E1C482951755FFCEDB756E /* Pods-LuckyBleDemo.debug.xcconfig */,
+				701A63CD6A6FA3BA7886AB67 /* Pods-LuckyBleDemo.release.xcconfig */,
+				5E1F5ED3F9295F0F7B10E382 /* Pods-LuckyBleDemo-LuckyBleDemoUITests.debug.xcconfig */,
+				CDF800B153A61260516C185A /* Pods-LuckyBleDemo-LuckyBleDemoUITests.release.xcconfig */,
+				F08B8DF8E688764F64A988E5 /* Pods-LuckyBleDemoTests.debug.xcconfig */,
+				64A3565AA0ABF3D399B9E1B6 /* Pods-LuckyBleDemoTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		3B60F3B52DEFE14E00E18186 = {
+			isa = PBXGroup;
+			children = (
+				3B60F3C02DEFE14E00E18186 /* LuckyBleDemo */,
+				3B60F3D72DEFE15000E18186 /* LuckyBleDemoTests */,
+				3B60F3E12DEFE15000E18186 /* LuckyBleDemoUITests */,
+				3B60F3BF2DEFE14E00E18186 /* Products */,
+				1C66D14EF251911C4F676D65 /* Pods */,
+				75BBF75D0AB92B88A5FCA6F4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3B60F3BF2DEFE14E00E18186 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3B60F3BE2DEFE14E00E18186 /* LuckyBleDemo.app */,
+				3B60F3D42DEFE15000E18186 /* LuckyBleDemoTests.xctest */,
+				3B60F3DE2DEFE15000E18186 /* LuckyBleDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		75BBF75D0AB92B88A5FCA6F4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				516B34AE3963F87922B2EBDD /* Pods_LuckyBleDemo.framework */,
+				D45899CD874EE1E04C33770D /* Pods_LuckyBleDemo_LuckyBleDemoUITests.framework */,
+				133EF1007CEBBAEB5A28DB3E /* Pods_LuckyBleDemoTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3B60F3BD2DEFE14E00E18186 /* LuckyBleDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B60F3E72DEFE15000E18186 /* Build configuration list for PBXNativeTarget "LuckyBleDemo" */;
+			buildPhases = (
+				D5EABC8A2792C2A19DE18F72 /* [CP] Check Pods Manifest.lock */,
+				3B60F3BA2DEFE14E00E18186 /* Sources */,
+				3B60F3BB2DEFE14E00E18186 /* Frameworks */,
+				3B60F3BC2DEFE14E00E18186 /* Resources */,
+				3B60F4422DEFE2AA00E18186 /* Embed Frameworks */,
+				7DB7399EEC7670F9F630B1D8 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				3B60F3C02DEFE14E00E18186 /* LuckyBleDemo */,
+			);
+			name = LuckyBleDemo;
+			productName = LuckyBleDemo;
+			productReference = 3B60F3BE2DEFE14E00E18186 /* LuckyBleDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3B60F3D32DEFE15000E18186 /* LuckyBleDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B60F3EC2DEFE15000E18186 /* Build configuration list for PBXNativeTarget "LuckyBleDemoTests" */;
+			buildPhases = (
+				70783448C8D68066073FFA4F /* [CP] Check Pods Manifest.lock */,
+				3B60F3D02DEFE15000E18186 /* Sources */,
+				3B60F3D12DEFE15000E18186 /* Frameworks */,
+				3B60F3D22DEFE15000E18186 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3B60F3D62DEFE15000E18186 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				3B60F3D72DEFE15000E18186 /* LuckyBleDemoTests */,
+			);
+			name = LuckyBleDemoTests;
+			productName = LuckyBleDemoTests;
+			productReference = 3B60F3D42DEFE15000E18186 /* LuckyBleDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3B60F3DD2DEFE15000E18186 /* LuckyBleDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B60F3EF2DEFE15000E18186 /* Build configuration list for PBXNativeTarget "LuckyBleDemoUITests" */;
+			buildPhases = (
+				AD33C2A1117982C15D66B714 /* [CP] Check Pods Manifest.lock */,
+				3B60F3DA2DEFE15000E18186 /* Sources */,
+				3B60F3DB2DEFE15000E18186 /* Frameworks */,
+				3B60F3DC2DEFE15000E18186 /* Resources */,
+				B859966D92BE5E38F11CD0E2 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3B60F3E02DEFE15000E18186 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				3B60F3E12DEFE15000E18186 /* LuckyBleDemoUITests */,
+			);
+			name = LuckyBleDemoUITests;
+			productName = LuckyBleDemoUITests;
+			productReference = 3B60F3DE2DEFE15000E18186 /* LuckyBleDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3B60F3B62DEFE14E00E18186 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					3B60F3BD2DEFE14E00E18186 = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					3B60F3D32DEFE15000E18186 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 3B60F3BD2DEFE14E00E18186;
+					};
+					3B60F3DD2DEFE15000E18186 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 3B60F3BD2DEFE14E00E18186;
+					};
+				};
+			};
+			buildConfigurationList = 3B60F3B92DEFE14E00E18186 /* Build configuration list for PBXProject "LuckyBleDemo" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3B60F3B52DEFE14E00E18186;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 3B60F3BF2DEFE14E00E18186 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3B60F3BD2DEFE14E00E18186 /* LuckyBleDemo */,
+				3B60F3D32DEFE15000E18186 /* LuckyBleDemoTests */,
+				3B60F3DD2DEFE15000E18186 /* LuckyBleDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3B60F3BC2DEFE14E00E18186 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B60F3D22DEFE15000E18186 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B60F3DC2DEFE15000E18186 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		70783448C8D68066073FFA4F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LuckyBleDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7DB7399EEC7670F9F630B1D8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LuckyBleDemo/Pods-LuckyBleDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LuckyBleDemo/Pods-LuckyBleDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LuckyBleDemo/Pods-LuckyBleDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AD33C2A1117982C15D66B714 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LuckyBleDemo-LuckyBleDemoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B859966D92BE5E38F11CD0E2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LuckyBleDemo-LuckyBleDemoUITests/Pods-LuckyBleDemo-LuckyBleDemoUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LuckyBleDemo-LuckyBleDemoUITests/Pods-LuckyBleDemo-LuckyBleDemoUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LuckyBleDemo-LuckyBleDemoUITests/Pods-LuckyBleDemo-LuckyBleDemoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D5EABC8A2792C2A19DE18F72 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LuckyBleDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3B60F3BA2DEFE14E00E18186 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B60F3D02DEFE15000E18186 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B60F3DA2DEFE15000E18186 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3B60F3D62DEFE15000E18186 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3B60F3BD2DEFE14E00E18186 /* LuckyBleDemo */;
+			targetProxy = 3B60F3D52DEFE15000E18186 /* PBXContainerItemProxy */;
+		};
+		3B60F3E02DEFE15000E18186 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3B60F3BD2DEFE14E00E18186 /* LuckyBleDemo */;
+			targetProxy = 3B60F3DF2DEFE15000E18186 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3B60F3E82DEFE15000E18186 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94E1C482951755FFCEDB756E /* Pods-LuckyBleDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 69VF5T55UA;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/LuckyBleDemo",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LuckyBleDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.junky.LuckyBleDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3B60F3E92DEFE15000E18186 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 701A63CD6A6FA3BA7886AB67 /* Pods-LuckyBleDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 69VF5T55UA;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/LuckyBleDemo",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LuckyBleDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.junky.LuckyBleDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3B60F3EA2DEFE15000E18186 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 69VF5T55UA;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3B60F3EB2DEFE15000E18186 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 69VF5T55UA;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3B60F3ED2DEFE15000E18186 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F08B8DF8E688764F64A988E5 /* Pods-LuckyBleDemoTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 69VF5T55UA;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.junky.LuckyBleDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LuckyBleDemo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LuckyBleDemo";
+			};
+			name = Debug;
+		};
+		3B60F3EE2DEFE15000E18186 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64A3565AA0ABF3D399B9E1B6 /* Pods-LuckyBleDemoTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 69VF5T55UA;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.junky.LuckyBleDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LuckyBleDemo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LuckyBleDemo";
+			};
+			name = Release;
+		};
+		3B60F3F02DEFE15000E18186 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E1F5ED3F9295F0F7B10E382 /* Pods-LuckyBleDemo-LuckyBleDemoUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 69VF5T55UA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.junky.LuckyBleDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LuckyBleDemo;
+			};
+			name = Debug;
+		};
+		3B60F3F12DEFE15000E18186 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDF800B153A61260516C185A /* Pods-LuckyBleDemo-LuckyBleDemoUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 69VF5T55UA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.junky.LuckyBleDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LuckyBleDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3B60F3B92DEFE14E00E18186 /* Build configuration list for PBXProject "LuckyBleDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B60F3EA2DEFE15000E18186 /* Debug */,
+				3B60F3EB2DEFE15000E18186 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B60F3E72DEFE15000E18186 /* Build configuration list for PBXNativeTarget "LuckyBleDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B60F3E82DEFE15000E18186 /* Debug */,
+				3B60F3E92DEFE15000E18186 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B60F3EC2DEFE15000E18186 /* Build configuration list for PBXNativeTarget "LuckyBleDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B60F3ED2DEFE15000E18186 /* Debug */,
+				3B60F3EE2DEFE15000E18186 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B60F3EF2DEFE15000E18186 /* Build configuration list for PBXNativeTarget "LuckyBleDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B60F3F02DEFE15000E18186 /* Debug */,
+				3B60F3F12DEFE15000E18186 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3B60F3B62DEFE14E00E18186 /* Project object */;
+}
