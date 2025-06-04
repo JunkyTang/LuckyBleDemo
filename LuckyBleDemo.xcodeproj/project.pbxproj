@@ -67,25 +67,11 @@
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
-/* Begin PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
-		3B60F4432DEFE2AA00E18186 /* Exceptions for "LuckyBleDemo" folder in "Embed Frameworks" phase from "LuckyBleDemo" target */ = {
-			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
-			attributesByRelativePath = {
-				LuckyBLE.framework = (CodeSignOnCopy, RemoveHeadersOnCopy, );
-			};
-			buildPhase = 3B60F4422DEFE2AA00E18186 /* Embed Frameworks */;
-			membershipExceptions = (
-				LuckyBLE.framework,
-			);
-		};
-/* End PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
-
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		3B60F3C02DEFE14E00E18186 /* LuckyBleDemo */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
 				3B60F3E62DEFE15000E18186 /* Exceptions for "LuckyBleDemo" folder in "LuckyBleDemo" target */,
-				3B60F4432DEFE2AA00E18186 /* Exceptions for "LuckyBleDemo" folder in "Embed Frameworks" phase from "LuckyBleDemo" target */,
 			);
 			path = LuckyBleDemo;
 			sourceTree = "<group>";
