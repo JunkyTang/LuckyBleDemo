@@ -68,11 +68,8 @@
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
-		3BF089142E04019A00AFB85A /* Exceptions for "LuckyBleDemo" folder in "Embed Frameworks" phase from "LuckyBleDemo" target */ = {
+		3BF089142E04019A00AFB85A /* Exceptions for "LuckyBleDemo" folder in "Embed Frameworks" build phase */ = {
 			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
-			attributesByRelativePath = {
-				LuckyBLE.framework = (CodeSignOnCopy, RemoveHeadersOnCopy, );
-			};
 			buildPhase = 3B60F4422DEFE2AA00E18186 /* Embed Frameworks */;
 			membershipExceptions = (
 				LuckyBLE.framework,
@@ -85,18 +82,22 @@
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
 				3B60F3E62DEFE15000E18186 /* Exceptions for "LuckyBleDemo" folder in "LuckyBleDemo" target */,
-				3BF089142E04019A00AFB85A /* Exceptions for "LuckyBleDemo" folder in "Embed Frameworks" phase from "LuckyBleDemo" target */,
+				3BF089142E04019A00AFB85A /* Exceptions for "LuckyBleDemo" folder in "Embed Frameworks" build phase */,
 			);
 			path = LuckyBleDemo;
 			sourceTree = "<group>";
 		};
 		3B60F3D72DEFE15000E18186 /* LuckyBleDemoTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+			);
 			path = LuckyBleDemoTests;
 			sourceTree = "<group>";
 		};
 		3B60F3E12DEFE15000E18186 /* LuckyBleDemoUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+			);
 			path = LuckyBleDemoUITests;
 			sourceTree = "<group>";
 		};
@@ -345,13 +346,9 @@
 			inputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-LuckyBleDemo/Pods-LuckyBleDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			inputPaths = (
-			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-LuckyBleDemo/Pods-LuckyBleDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -388,13 +385,9 @@
 			inputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-LuckyBleDemo-LuckyBleDemoUITests/Pods-LuckyBleDemo-LuckyBleDemoUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			inputPaths = (
-			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-LuckyBleDemo-LuckyBleDemoUITests/Pods-LuckyBleDemo-LuckyBleDemoUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

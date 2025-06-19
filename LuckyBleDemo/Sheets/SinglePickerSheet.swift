@@ -14,7 +14,6 @@ import SafeContinuation
 final class SinglePickerSheet: UIView {
 
 
-    @IBOutlet weak var pickerView: UIPickerView!
     
     @IBAction func actionForCancel(_ sender: Any) {
         hide(compelete: nil)
