@@ -37,6 +37,9 @@ class RootController: UIViewController {
 
     func bindVM() {
         log.logHandler = { log in
+            
+            // TODO: UI刷新频繁， 卡UI。调试建议用Console log
+            
             let formatter = DateFormatter()
             formatter.dateFormat = "HH:mm:ss"
             let timeString = formatter.string(from: Date())

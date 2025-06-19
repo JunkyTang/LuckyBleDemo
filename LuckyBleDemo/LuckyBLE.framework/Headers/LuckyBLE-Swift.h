@@ -349,6 +349,36 @@ SWIFT_CLASS("_TtC8LuckyBLE14PrinterService")
 - (void)peripheral:(CBPeripheral * _Nonnull)peripheral didWriteValueForCharacteristic:(CBCharacteristic * _Nonnull)characteristic error:(NSError * _Nullable)error;
 @end
 
+SWIFT_CLASS_NAMED("UTSBridge")
+@interface UTSBridge : NSObject
++ (UTSBridge * _Nonnull)shared SWIFT_WARN_UNUSED_RESULT;
+- (void)addScanDeviceListenerWithListener:(void (^ _Nonnull)(NSDictionary<NSString *, id> * _Nonnull))listener;
+- (void)removeScanDeviceListener;
+- (void)addConnectListenerWithListener:(void (^ _Nonnull)(NSDictionary<NSString *, id> * _Nonnull))listener;
+- (void)removeConnectListener;
+- (void)addPrinterStatusListenerWithListener:(void (^ _Nonnull)(NSDictionary<NSString *, id> * _Nonnull))listener;
+- (void)removePrinterStatusListener;
+- (void)startScanDeviceWithTimeout:(NSNumber * _Nonnull)timeout;
+- (void)stopScanDevice;
+- (void)getConnectStatus;
+- (void)connectDeviceWithMac:(NSString * _Nonnull)mac callback:(void (^ _Nonnull)(NSDictionary<NSString *, id> * _Nonnull))callback;
+- (void)disconnectWithCallback:(void (^ _Nonnull)(BOOL))callback;
+- (void)rollPrintWithImage:(NSString * _Nonnull)image count:(NSNumber * _Nonnull)count callback:(void (^ _Nonnull)(NSDictionary<NSString *, id> * _Nonnull))callback;
+- (void)labelPrintWithImage:(NSString * _Nonnull)image count:(NSNumber * _Nonnull)count callback:(void (^ _Nonnull)(NSDictionary<NSString *, id> * _Nonnull))callback;
+- (void)foldPrintWithImage:(NSString * _Nonnull)image count:(NSNumber * _Nonnull)count callback:(void (^ _Nonnull)(NSDictionary<NSString *, id> * _Nonnull))callback;
+- (void)printerGetModelWithCallback:(void (^ _Nonnull)(NSDictionary<NSString *, id> * _Nonnull))callback;
+- (void)printerGetSNWithCallback:(void (^ _Nonnull)(NSDictionary<NSString *, id> * _Nonnull))callback;
+- (void)printerGetVersionWithCallback:(void (^ _Nonnull)(NSDictionary<NSString *, id> * _Nonnull))callback;
+- (void)printerGetStandbyTimeWithCallback:(void (^ _Nonnull)(NSDictionary<NSString *, id> * _Nonnull))callback;
+- (void)printerSetStandbyTimeWithValue:(NSNumber * _Nonnull)value callback:(void (^ _Nonnull)(NSDictionary<NSString *, id> * _Nonnull))callback;
+- (void)printerGetStatusWithCallback:(void (^ _Nonnull)(NSDictionary<NSString *, id> * _Nonnull))callback;
+- (void)printerGetBatteryWithCallback:(void (^ _Nonnull)(NSDictionary<NSString *, id> * _Nonnull))callback;
+- (void)printerGetDensityWithCallback:(void (^ _Nonnull)(NSDictionary<NSString *, id> * _Nonnull))callback;
+- (void)printerSetDensityWithValue:(NSNumber * _Nonnull)value callback:(void (^ _Nonnull)(NSDictionary<NSString *, id> * _Nonnull))callback;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
 #endif
 #if __has_attribute(external_source_symbol)
 # pragma clang attribute pop

@@ -67,11 +67,25 @@
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
+/* Begin PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+		3BF089142E04019A00AFB85A /* Exceptions for "LuckyBleDemo" folder in "Embed Frameworks" phase from "LuckyBleDemo" target */ = {
+			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
+			attributesByRelativePath = {
+				LuckyBLE.framework = (CodeSignOnCopy, RemoveHeadersOnCopy, );
+			};
+			buildPhase = 3B60F4422DEFE2AA00E18186 /* Embed Frameworks */;
+			membershipExceptions = (
+				LuckyBLE.framework,
+			);
+		};
+/* End PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		3B60F3C02DEFE14E00E18186 /* LuckyBleDemo */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
 				3B60F3E62DEFE15000E18186 /* Exceptions for "LuckyBleDemo" folder in "LuckyBleDemo" target */,
+				3BF089142E04019A00AFB85A /* Exceptions for "LuckyBleDemo" folder in "Embed Frameworks" phase from "LuckyBleDemo" target */,
 			);
 			path = LuckyBleDemo;
 			sourceTree = "<group>";
@@ -457,7 +471,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 69VF5T55UA;
+				DEVELOPMENT_TEAM = YSJJVL47AN;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -491,7 +505,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 69VF5T55UA;
+				DEVELOPMENT_TEAM = YSJJVL47AN;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
